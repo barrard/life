@@ -1,0 +1,20 @@
+canvas {
+    border: 2px solid black;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.menu {
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 20vw;
+    border: 2px solid red;
+    color: white;
+}
