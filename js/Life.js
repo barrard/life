@@ -11,6 +11,7 @@ function Life({ ctx, w, h }) {
 }
 
 Life.prototype.rule = function (group1, group2, g) {
+    if (!group1 || !group2) return;
     for (let i = 0; i < group1.length; i++) {
         let fx = 0;
         let fy = 0;
